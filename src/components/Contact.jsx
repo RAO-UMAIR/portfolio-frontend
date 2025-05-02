@@ -10,33 +10,37 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [description, setDescription] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formData = { name, email, description };
-    try {
-      const response = await fetch(
-        // "https://rao-umair-potfolio.up.railway.app/api/contacts",
-        "http://127.0.0.1:5000/api/contacts",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-      const data = await response.json();
-      if (response.ok) {
-        toast.success("Message sent successfully!");
-        setName("");
-        setEmail("");
-        setDescription("");
-      } else {
-        toast.error(`Error: ${data.message}`);
-      }
-    } catch (error) {
-      toast.error("Error submitting form:", error);
-    }
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   const formData = { name, email, description };
+  //   try {
+  //     const response = await fetch(
+  //       // "https://rao-umair-potfolio.up.railway.app/api/contacts",
+  //       "http://127.0.0.1:5000/api/contacts",
+  //       {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //         body: JSON.stringify(formData),
+  //       }
+  //     );
+  //     const data = await response.json();
+  //     if (response.ok) {
+  //       toast.success("Message sent successfully!");
+  //       setName("");
+  //       setEmail("");
+  //       setDescription("");
+  //     } else {
+  //       toast.error(`Error: ${data.message}`);
+  //     }
+  //   } catch (error) {
+  //     toast.error("Error submitting form:", error);
+  //   }
+  // };
+
+  const handleSubmit = () => {
+    console.log("Successfully Submitted");
   };
 
   return (
