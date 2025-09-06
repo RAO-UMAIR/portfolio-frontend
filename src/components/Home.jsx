@@ -46,7 +46,7 @@ function Home() {
       <img
         src="/images/Hero.jpg"
         alt="Hero Section"
-        className=" md:w-full  h-[80vh] sm:h-[90vh] md:h-screen object-cover"
+        className="w-full h-[80vh] sm:h-[90vh] md:h-screen object-cover"
       />
 
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 text-center">

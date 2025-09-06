@@ -105,7 +105,7 @@ function Contact() {
       </div>
 
       <footer className="mt-10 px-4 py-9 md:mt-20 md:px-8  md:py-8 bg-gray-700">
-        <div className="grid grid-cols-2 gap-4 md:flex md:justify-between md:items-center">
+        <div className="grid grid-cols-2 gap-4 sm:flex sm:justify-between sm:items-center">
           <a
             href="https://www.linkedin.com/in/rao-umair-250a17356/?trk=opento_sprofile_details"
             target="_blank"
@@ -113,7 +113,7 @@ function Contact() {
           >
             <div className="flex items-center gap-2">
               <FaLinkedin className="text-white text-3xl md:text-4xl" />
-              <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
+              <p className="text-lg  sm:text-sm lg:text-lg text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
                 LinkedIn
               </p>
             </div>
@@ -134,7 +134,7 @@ function Contact() {
           >
             <div className="flex items-center gap-2">
               <IndeedIcon className="w-6 h-6 md:w-10 md:h-12" />
-              <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
+              <p className="text-lg sm:text-sm lg:text-lg  text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
                 Indeed
               </p>
             </div>
@@ -147,7 +147,7 @@ function Contact() {
           >
             <div className="flex items-center gap-2">
               <FaGithub className="text-white text-3xl md:text-4xl" />
-              <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
+              <p className="text-lg sm:text-sm lg:text-lg  text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
                 Github
               </p>
             </div>
@@ -159,7 +159,7 @@ function Contact() {
           >
             <div className="flex items-center gap-2">
               <FaInstagram className="text-pink-500 text-3xl md:text-4xl" />
-              <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
+              <p className="text-lg sm:text-sm lg:text-lg  text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
                 Instagram
               </p>
             </div>
@@ -172,14 +172,14 @@ function Contact() {
           >
             <div className="flex items-center  gap-2">
               <HiOutlineMail className="text-blue-600 text-3xl md:text-4xl" />
-              <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-blue-600 transition-all duration-300">
+              <p className="text-lg sm:text-sm lg:text-lg  text-gray-200 font-bold hover:text-blue-600 transition-all duration-300">
                 Email: ru1063936@gmail.com
               </p>
             </div>
           </a>
         </div>
         <div className="mt-6 md:mt-8 text-center">
-          <p className="text-lg md:text-2xl text-gray-300">
+          <p className="text-lg sm:text-sm  text-gray-300">
             &copy; {new Date().getFullYear()} Rao Umair &#124; All Rights
             Reserved.
           </p>
