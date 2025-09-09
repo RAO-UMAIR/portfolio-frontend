@@ -14,13 +14,14 @@ function About() {
           <h2 className="text-white text-xl mb-4 md:text-4xl md:mb-8">
             Hi, I'm
             <span className="font-bold text-green-600"> RAO UMAIR-</span>
-            Full-Stack Developer | React, Node.js, Express & MongoDB
+            Full-Stack Developer | React, Node.js, Express, Python, FastAPI & Database Expert
           </h2>
           <p className="text-gray-400 mb-6  md:text-2xl">
-            As a JavaScript developer, I enjoy working on both frontend and
-            backend technologies. Using React.js for dynamic UIs, Node.js &
-            Express.js for server-side logic, and MongoDB for scalable
-            databases, I build full-stack applications that are efficient,
+            As a versatile full-stack developer, I enjoy working on both frontend and
+            backend technologies. Using React.js for dynamic UIs, <span className="text-yellow-500 font-semibold">Node.js</span> &
+            <span className="text-yellow-500 font-semibold"> Express.js</span> for server-side logic, <span className="text-yellow-500 font-semibold">Python</span> & <span className="text-yellow-500 font-semibold">FastAPI</span> for high-performance APIs, 
+            and both <span className="text-yellow-500 font-semibold">MongoDB</span> and <span className="text-yellow-500 font-semibold">SQL</span> databases (<span className="text-yellow-500 font-semibold">PostgreSQL</span>, <span className="text-yellow-500 font-semibold">MySQL</span>) for scalable
+            data management, I build full-stack applications that are efficient,
             scalable, and user-friendly.
           </p>
         </div>

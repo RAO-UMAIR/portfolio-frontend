@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Button from "../ui/Button";
 import { FaAngleDown } from "react-icons/fa";
 
-const sentences = ["My Self RAO UMAIR.", "I am a MERN Stack Developer."];
+const sentences = ["My Self RAO UMAIR.", "I am a Full Stack WEB Developer:)"];
 function Home() {
   const [displayedText, setDisplayedText] = useState("");
   const [showCursor, setShowCursor] = useState(true);
