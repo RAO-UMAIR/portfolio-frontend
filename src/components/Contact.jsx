@@ -2,7 +2,6 @@ import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 // import { FiverIcon } from "../ui/Fivericon";
 import { HiOutlineMail } from "react-icons/hi";
 import { useState } from "react";
-import { toast } from "react-toastify";
 import IndeedIcon from "../ui/Indeedicon";
 
 function Contact() {
